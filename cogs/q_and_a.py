@@ -4,7 +4,7 @@ from discord.ext import commands
 import discord
 import datetime
 
-class q_and_a(commands.Cog):
+class Q_and_a(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
@@ -45,4 +45,4 @@ class q_and_a(commands.Cog):
 
 
 async def setup(bot):
-    await bot.add_cog(q_and_a(bot))
+    await bot.add_cog(Q_and_a(bot))
