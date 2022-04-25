@@ -27,7 +27,9 @@ bot.secret = secret
 
 @bot.listen()
 async def setup_hook():
-    await bot.load_extension("cogs.*")
+    for name in listdir("cogs"):
+        if not name.startswith(("_", ".")):
+            await bot.load_extension(f"cogs.{name[:-3] if name.endswith('.py') else name}")
     await bot.load_extension("jishaku")
 
 @bot.listen()
