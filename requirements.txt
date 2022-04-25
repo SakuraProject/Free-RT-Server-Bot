@@ -1,0 +1,4 @@
+# core
+git+https://github.com/Rapptz/discord.py
+ujson
+jishaku
