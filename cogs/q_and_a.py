@@ -44,5 +44,5 @@ class q_and_a(commands.Cog):
                     await channel2.send(f"<@{payload.user_id}>さんは質問があるみたいです。")
 
 
-async setup(bot):
+async def setup(bot):
     await bot.add_cog(q_and_a(bot))
