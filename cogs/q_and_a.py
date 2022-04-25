@@ -23,6 +23,7 @@ class Q_and_a(commands.Cog):
                     await msg.add_reaction("2️⃣")
                 else:
                     await ctx.send("あなたは実行できません。")
+                    return
 
     @commands.Cog.listener()
     async def on_raw_reaction_add(self, payload):
