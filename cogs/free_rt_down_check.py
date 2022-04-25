@@ -3,7 +3,7 @@
 from discord.ext import commands
 
 
-class down_check(commands.Cog):
+class Down_check(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
@@ -16,4 +16,4 @@ class down_check(commands.Cog):
 
 
 async def setup(bot):
-    await bot.add_cog(down_check(bot))
+    await bot.add_cog(Down_check(bot))
