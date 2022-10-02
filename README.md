@@ -12,7 +12,7 @@ freeRT公式サーバー専属botです。まだ機能は作成されていま�
 - [requirements.txt]にあるもの全て。
     - jishaku
     - ujson
-    - discord.py 2.0a
+    - discord.py 2.1.0a
 ### 起動手順
   1. 必要なものをpip install -r requirements.txtでインストールをします。
   2. 必要なTOKENなどをauth.template.jsonを参考にauth.jsonに書き込む。
